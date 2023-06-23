@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 20px;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    margin: 10px;
+    font-size: 20px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 40vh;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.input-container small {
+  height: 20px;
+  color: rgb(73, 15, 209);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input-container textarea {
+  height: 60px;
+  border: 1px solid rgb(73, 15, 209);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+  height: 100vh;
+  outline: none;
+  resize: none;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+.output small {
+  height: 20px;
+  color: rgb(73, 15, 209);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.output textarea {
+  height: 60px;
+  border: 1px solid rgb(73, 15, 209);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+  height: 100vh;
+  outline: none;
+  resize: none;
+}
+
+.button {
+  margin: 20px auto;
+  display: block;
+  padding: 16px 24px;
+  background-color: rgb(73, 15, 209);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
